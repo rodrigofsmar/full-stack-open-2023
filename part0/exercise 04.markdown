@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -17,3 +18,4 @@ sequenceDiagram
     server-->>browser: JSON data
 
     Note right of browser: Browser executes callback function to render notes
+```
